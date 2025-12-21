@@ -32,7 +32,7 @@ USE DataWarehouse;
 
 -- create schemas
 CREATE SCHEMA bronze;
-GO  -- use as a separator to execute the program , first compelete then execute next
+GO  -- use as a separator to execute the program , first compelete the previous code then execute next
 
 CREATE SCHEMA silver;
 
