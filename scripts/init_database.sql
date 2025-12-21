@@ -25,13 +25,17 @@ BEGIN
     DROP DATABASE DataWarehouse;
 END;
 GO
-
+-- create a 'dataWarehouse' database
 CREATE DATABASE DataWarehouse;
+
 USE DataWarehouse;
 
+-- create schemas
 CREATE SCHEMA bronze;
 GO  -- use as a separator to execute the program , first compelete then execute next
+
 CREATE SCHEMA silver;
+
 GO
 CREATE SCHEMA gold;
 
